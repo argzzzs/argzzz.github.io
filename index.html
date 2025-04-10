@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Apsay blog Login</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <p>asdasdsadasdasdsa</p>
+    <div class="login-container">
+        <img src="kuromi-icon.png" alt="Kuromi Icon" class="Kuromi">
+        <h1>Login</h1>
+        <form onsubmit="login(event)">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+            <a href="register.html">Register</a>
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
 </body>
 </html>
