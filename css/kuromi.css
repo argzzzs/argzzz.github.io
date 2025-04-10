@@ -1,0 +1,81 @@
+body {
+    background-color: #1e1e2f;
+    color: #e1e1e1;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #29293d;
+    padding: 20px;
+    text-align: center;
+    color: #ff79c6;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #3c3c56;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffb6c1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d19fe8;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #2a2a3c;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #00000088;
+}
+
+.post {
+    background: #3e3e59;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+.post h2 {
+    color: #ff79c6;
+}
+
+.post p {
+    color: #e1e1e1;
+}
+
+footer {
+    background-color: #29293d;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #ffb6c1;
+}
+
+.kuromi-icon {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+.me{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2a2a3c;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
